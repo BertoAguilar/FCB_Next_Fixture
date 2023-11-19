@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 77, 152);
+    padding: 15px;
+}
+.badge {
+    width: 125px;
+}
+.leftNav {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 20px;
+    margin-left: 50px;
+}
+h1 {
+    color: rgb(168, 19, 62);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.rightNav a {
+    color: rgb(237, 187, 0);
+    text-decoration: none;
+    border-right: solid black;
+    padding-right: 15px;
+    font-size: 20px;
+}
+.rightNav a:last-of-type {
+    border: none;
+}
+.rightNav {
+    display: flex;
+    gap: 20px;
+}
+
+/* ----------------------Team Info---------------------------- */
+.squadInfo {
+    display: flex;
+    align-items:center;
+    margin: 20px 70px;
+    gap: 15px;
+    flex: 2;
+    font-size: 20px;
+}
+.leftArti {
+    display: flex;
+    flex-direction: column;
+    text-indent: 40px;
+
+}
+.squad {
+    width: 750px;
+    float: right;
+    flex: 3;
+}
+
+/* --------------------Next Fixture------------------------------ */
+.nextFixture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+h2 {
+    font-size: 65px;
+    border-bottom: solid black;
+
+}
+.fixtureBadge {
+    width: 125px;
+}
+.vsBadge {
+    display: flex;
+    align-items: center;
+    gap: 25px   ;
+}
+.vs {
+    font-size: 60px;
+}
+.fixtureTime {
+    font-size: 22px;
+}
+.lineUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.lineUpImage {
+
+}
+.opinion {
+    font-size: 50px;
+    border: solid black;
+    border-radius: 20px;
+    background-color: rgb(237, 187, 0);
+    color: rgb(0, 77, 152);
+    padding: 10px;
+}
+.players {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 45px;
+    gap: 18px;
+    margin-left: 40px;
+}
+.startBench{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 21px;
+    border-bottom: solid black;
+    width: 550px;
+}
+.buttonGroup {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.starterButton {
+    font-size: 35px;
+    background-color: rgb(0, 77, 152);
+    color: rgb(237, 187, 0);
+    cursor: pointer;
+    padding: 3px;
+}
+.benchButton {
+    font-size: 35px;
+    background-color: rgb(168, 19, 62);
+    color: rgb(237, 187, 0);
+    cursor: pointer;
+    padding: 3px;
+}
